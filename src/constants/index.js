@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Analysis",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Machine Learning",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Data Visualizations",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Backend Development",
       icon: creator,
     },
   ];
@@ -116,55 +116,41 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Data Science Intern",
+      company_name: "Connected Dealer Services",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2024 - January 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led a cross-functional data quality initiative to unify data across Salesforce (CRM), M2M (OMS), Elastic and NetSuite, enhancing data quality/accuracy and creating a unified view of disparate customer data",
+        "Developed a predictive churn model to analyze customer data, identifying patterns of churn risk using features derived from Salesforce, M2M transactions, and support tickets.", 
+        "Trained and fine-tuned multiple models, deploying a high accuracy model for real time predictions",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Web Search Engine Project",
+      company_name: "UC Irvine",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "February 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led development of a scalable search engine, capable of handling tens of thousands of Web pages under stringent operational constraints, achieving query response time under 300ms",
+        "Developed a web crawler in Python that retrieved 90,000+ web pages from the UCI online domain, achieving a 96% crawl success rate",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Music Streaming Analysis",
+      company_name: "Spotify",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "November 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted a comprehensive analysis and visualization of Spotify streaming history data, processing over 1.2 million data points encompassing 5GB of JSON files.", 
+        "Provided more in-depth metrics than Spotify Wrapped, the official and annual metric delivery from Spotify.",
+        "Developed a data preprocessing pipeline, cleaning and structuring data using Python, reducing data volume by 37%",
+        "Conducted trend analysis to uncover listening habits using R, identifying seasonal and long term user preferences",
+        "Created detailed visualizations using Matplotlib and PowerBI, highlighting key metrics and patterns in a dashboard",
+        "Processed metrics including 134k streams, 378k minutes, 8,84k tracks, 4.07k artists, and 5.55k album"
       ],
     },
   ];
